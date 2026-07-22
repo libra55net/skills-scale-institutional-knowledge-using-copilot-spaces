@@ -1,49 +1,24 @@
-# OctoAcme Project Management – Docs Overview
+# OctoAcme Project Management Docs
 
-This folder contains the project management documentation for OctoAcme. The guides here cover the full project lifecycle, team roles, communication practices, and quality standards used across all cross-functional projects.
+Welcome to the OctoAcme project management documentation hub. This README provides a quick index of process documents and a short summary of how OctoAcme runs projects.
 
-## Project Lifecycle
+## Documentation Index
 
-OctoAcme projects follow five phases:
+- [OctoAcme Project Management Overview](octoacme-project-management-overview.md)
+- [OctoAcme — Project Initiation Guide](octoacme-project-initiation.md)
+- [OctoAcme — Project Planning](octoacme-project-planning.md)
+- [OctoAcme — Execution & Tracking](octoacme-execution-and-tracking.md)
+- [OctoAcme — Risk Management & Communication](octoacme-risks-and-communication.md)
+- [OctoAcme — Release & Deployment Guide](octoacme-release-and-deployment.md)
+- [OctoAcme — Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
+- [OctoAcme Personas](octoacme-roles-and-personas.md)
 
-1. **Initiation** – Define the problem statement, align stakeholders, identify early risks, and reach a go/no-go decision using a lightweight one-pager.
-2. **Planning** – Build a prioritized backlog, estimate scope, map milestones and dependencies, and document a Definition of Done (DoD).
-3. **Execution** – Deliver in small, testable increments using a project board (Backlog → Ready → In Progress → In Review → QA → Done). PR practices stay disciplined: small changes, linked issues, CI checks before review, and required approval before merge. Risks are escalated through a tiered path (team triage → PM/Product Lead → sponsor).
-4. **Release** – Run release-readiness checks, verify the deployment, communicate the launch, and ensure a rollback plan is in place.
-5. **Retrospective & Continuous Improvement** – Convert lessons learned into tracked action items with owners and due dates.
+## Summary of OctoAcme Project Management Processes
 
-## Roles and Personas
+OctoAcme follows a structured but lightweight lifecycle: initiation, planning, execution, release, and retrospective improvement. Initiation clarifies the problem, goals, stakeholders, success metrics, initial timeline, and go/no-go readiness. Planning then decomposes work into prioritized backlog items with acceptance criteria, estimates, dependencies, and milestones, with explicit Definition of Done expectations to support predictable delivery.
 
-| Role | Core Responsibilities |
-|---|---|
-| **Project Manager (PM)** | Coordinates delivery, schedules, risks, and cross-team communication |
-| **Product Manager (PdM)** | Defines outcomes, owns backlog prioritization, and measures success |
-| **Developers** | Implement and test features; surface technical risks early |
-| **QA / Testing** | Validates quality and acceptance criteria |
-| **Stakeholders** | Provide inputs and approvals at planned checkpoints |
+Execution is managed through clear team rhythm and workflow controls. Delivery teams operate with regular standups, weekly syncs, and end-of-sprint or milestone demos, while tracking work transparently across board states such as Backlog, Ready, In Progress, In Review, QA, and Done. Pull request expectations—small changes, issue linkage, CI checks, and required review approval—help maintain flow while reducing risk and improving collaboration quality.
 
-## Communication Practices
+Roles are intentionally well-defined across Project Managers, Product Managers, Developers, QA/testing contributors, and stakeholders. Project Managers coordinate schedules, risks, and communications; Product Managers define outcomes and priorities; Developers implement and validate solutions; QA ensures acceptance quality; and stakeholders guide alignment and approvals. Communication practices emphasize consistent status updates, risk visibility, and clear escalation from team triage to PM/Product Lead and sponsor-level intervention when business impact is significant.
 
-- **Standups** (twice-weekly or as agreed) and **weekly PM + PdM syncs** keep the delivery team aligned.
-- **Sprint/milestone demos** and **stakeholder updates** (weekly or milestone-based) maintain shared visibility.
-- Standardized **status and incident communication templates** provide a single source of truth for project health.
-
-## Quality Assurance
-
-- Unit tests on all new logic; integration and smoke tests where relevant.
-- CI pipeline enforces lint, test, and security scans on every PR.
-- Manual QA performed where needed for acceptance validation.
-- Release readiness checks confirm quality gates are met before deployment.
-
-## Documents in This Folder
-
-| File | Contents |
-|---|---|
-| [octoacme-project-management-overview.md](octoacme-project-management-overview.md) | Principles, core roles, key artifacts, and lifecycle summary |
-| [octoacme-project-initiation.md](octoacme-project-initiation.md) | Initiation process and one-pager template |
-| [octoacme-project-planning.md](octoacme-project-planning.md) | Backlog, estimation, milestones, and Definition of Done |
-| [octoacme-execution-and-tracking.md](octoacme-execution-and-tracking.md) | Project board workflow, PR process, and risk escalation |
-| [octoacme-release-and-deployment.md](octoacme-release-and-deployment.md) | Release readiness, rollback planning, and launch communication |
-| [octoacme-retrospective-and-continuous-improvement.md](octoacme-retrospective-and-continuous-improvement.md) | Retrospective format and action-item tracking |
-| [octoacme-risks-and-communication.md](octoacme-risks-and-communication.md) | Risk management, status templates, and escalation paths |
-| [octoacme-roles-and-personas.md](octoacme-roles-and-personas.md) | Detailed persona definitions for PM, PdM, Developers, QA, and Stakeholders |
+Quality assurance and continuous improvement are embedded throughout the lifecycle. Teams apply unit, integration, and critical-flow smoke testing, supported by CI linting and security scanning. Release readiness includes release notes, rollback planning, and post-deploy verification. After each sprint, release, or incident, retrospectives capture lessons learned and convert them into owned action items, reinforcing repeatable execution and ongoing process maturity.
