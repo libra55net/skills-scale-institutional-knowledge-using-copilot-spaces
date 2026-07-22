@@ -1,6 +1,7 @@
 # OctoAcme Project Management Docs
 
-Welcome to the OctoAcme project management documentation hub. This README provides a quick index of process documents and a short summary of how OctoAcme runs projects.
+This README serves as the central index for OctoAcme project management documentation.
+Use it to find the core process guides and review the delivery practices, roles, and communication patterns that connect them.
 
 ## Documentation Index
 
@@ -15,10 +16,22 @@ Welcome to the OctoAcme project management documentation hub. This README provid
 
 ## Summary of OctoAcme Project Management Processes
 
-OctoAcme follows a structured but lightweight lifecycle: initiation, planning, execution, release, and retrospective improvement. Initiation clarifies the problem, goals, stakeholders, success metrics, initial timeline, and go/no-go readiness. Planning then decomposes work into prioritized backlog items with acceptance criteria, estimates, dependencies, and milestones, with explicit Definition of Done expectations to support predictable delivery.
+### Lifecycle
 
-Execution is managed through clear team rhythm and workflow controls. Delivery teams operate with regular standups, weekly syncs, and end-of-sprint or milestone demos, while tracking work transparently across board states such as Backlog, Ready, In Progress, In Review, QA, and Done. Pull request expectations—small changes, issue linkage, CI checks, and required review approval—help maintain flow while reducing risk and improving collaboration quality.
+OctoAcme follows a structured lifecycle across initiation, planning, execution, release, and retrospective improvement.
+Projects start by defining goals, stakeholders, success metrics, and initial risks, then move into backlog planning, dependencies, estimates, milestones, and Definition of Done expectations.
 
-Roles are intentionally well-defined across Project Managers, Product Managers, Developers, QA/testing contributors, and stakeholders. Project Managers coordinate schedules, risks, and communications; Product Managers define outcomes and priorities; Developers implement and validate solutions; QA ensures acceptance quality; and stakeholders guide alignment and approvals. Communication practices emphasize consistent status updates, risk visibility, and clear escalation from team triage to PM/Product Lead and sponsor-level intervention when business impact is significant.
+### Execution Rhythm
 
-Quality assurance and continuous improvement are embedded throughout the lifecycle. Teams apply unit, integration, and critical-flow smoke testing, supported by CI linting and security scanning. Release readiness includes release notes, rollback planning, and post-deploy verification. After each sprint, release, or incident, retrospectives capture lessons learned and convert them into owned action items, reinforcing repeatable execution and ongoing process maturity.
+Delivery teams operate with regular standups, weekly syncs, and demos at sprint or milestone boundaries.
+Work moves visibly through board states such as Backlog, Ready, In Progress, In Review, QA, and Done, while pull requests are linked to issues, kept reviewable, and merged only after review expectations and CI checks are satisfied.
+
+### Communication and Risk Management
+
+Stakeholders receive regular status updates, and the team reviews risks and blockers with owners and mitigation plans during weekly syncs.
+Escalation follows a clear path from team-level triage to PM and Product Lead coordination, then to sponsor involvement when a business-impacting issue needs added support.
+
+### Quality Assurance and Continuous Improvement
+
+Quality assurance is built into delivery through unit and integration tests, CI linting and security checks, and manual QA when feature acceptance needs it.
+Release readiness includes confirming acceptance criteria, preparing release notes, documenting rollback plans, and completing post-release validation, while retrospectives turn lessons learned into tracked action items for continuous improvement.
