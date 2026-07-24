@@ -10,6 +10,7 @@ Use it to find the core process guides and review the delivery practices, roles,
 - [OctoAcme — Project Planning](octoacme-project-planning.md)
 - [OctoAcme — Execution & Tracking](octoacme-execution-and-tracking.md)
 - [OctoAcme — Risk Management & Communication](octoacme-risks-and-communication.md)
+- [OctoAcme — Handoffs & Ownership Checklist](octoacme-handoffs-and-ownership-checklist.md)
 - [OctoAcme — Release & Deployment Guide](octoacme-release-and-deployment.md)
 - [OctoAcme — Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
 - [OctoAcme Personas](octoacme-roles-and-personas.md)
@@ -30,6 +31,7 @@ Work moves visibly through board states such as Backlog, Ready, In Progress, In 
 
 Stakeholders receive regular status updates, and the team reviews risks and blockers with owners and mitigation plans during weekly syncs.
 Escalation follows a clear path from team-level triage to PM and Product Lead coordination, then to sponsor involvement when a business-impacting issue needs added support.
+Cross-functional handoffs use explicit owners, decision logs, and readiness checks so work does not stall between planning, delivery, QA, release, and support.
 
 ### Quality Assurance and Continuous Improvement
 
