@@ -23,6 +23,7 @@ Maintain a simple table with:
 - Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+- Confirm who owns each risk decision, escalation, and cross-team handoff before the next milestone
 
 ## Communication Templates
 Weekly Status Template:
@@ -40,3 +41,6 @@ Incident Communication
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
 - For security incidents, follow the security incident runbook and notify Security on-call
+
+## Handoff Reminder
+- Reuse the [OctoAcme — Handoffs & Ownership Checklist](octoacme-handoffs-and-ownership-checklist.md) when a blocker crosses team boundaries or a release decision needs explicit ownership.

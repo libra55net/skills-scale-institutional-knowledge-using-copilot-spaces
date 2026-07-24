@@ -17,14 +17,21 @@ Applies to all cross-functional projects that deliver product features, services
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
+- QA / Test Engineers: validate quality, testability, and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
+
+## Common Supporting Roles
+- UX / UI Designers: clarify user flows, interaction details, and accessibility expectations.
+- DevOps / Platform Engineers: support environment readiness, automation, and release reliability.
+- Security / Compliance Leads: define security checkpoints, required controls, and risk acceptance paths.
+- Customer Support / Success Liaisons: prepare support readiness and route customer feedback into the team.
 
 ## Key Artifacts
 - Project Charter / One-pager
 - Roadmap and Release Plan
 - Sprint/Iteration Backlog
 - Acceptance Criteria & Definition of Done
+- Handoffs & Ownership Checklist
 - Risk Register
 - Retrospective notes and action items
 
@@ -43,4 +50,5 @@ Applies to all cross-functional projects that deliver product features, services
 
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
+- Use the [OctoAcme Personas](octoacme-roles-and-personas.md) and [OctoAcme — Handoffs & Ownership Checklist](octoacme-handoffs-and-ownership-checklist.md) together when cross-functional ownership needs to be explicit.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
